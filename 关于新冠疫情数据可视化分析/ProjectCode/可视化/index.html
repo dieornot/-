@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .show {
+
+            display: block !important;
+
+        }
+        #world_show{
+
+            margin: 20px 0px 0px;
+
+            background: #E6E6E6;
+
+            height: 250px;
+
+            width: 310px;
+
+            position: relative;
+
+            display: none;
+
+        }
+    </style>
+</head>
+<body>
+<!--<button id="button">世界疫情分布</button>-->
+<!--<button onclick="window.location.href = './世界疫情分布.html'">世界疫情分布</button>-->
+<!--<iframe src="./世界疫情分布.html"-->
+<!--            width="960px" height="500px">-->
+<!--    </iframe>-->
+<button id = "world">世界疫情分布</button>
+
+<div id = "world_show">
+    <iframe src="./世界疫情分布.html"
+            width="960px" height="500px" >
+    </iframe>
+</div>
+
+</body>
+<script>
+
+    window.onload = function () {
+
+        document.getElementById("world").onclick = function () {
+
+            document.getElementById("world_show").classList.add("show")
+
+        }
+
+    }
+
+</script>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/themes/romantic.js"></script>
+
+</head>
+<body>
+    <div id="3f8cfdb36b8a46f6bf729dd84bd2d0d3" class="chart-container" style="width:800px; height:400px;"></div>
+    <script>
+        var chart_3f8cfdb36b8a46f6bf729dd84bd2d0d3 = echarts.init(
+            document.getElementById('3f8cfdb36b8a46f6bf729dd84bd2d0d3'), 'romantic', {renderer: 'canvas'});
+        var option_3f8cfdb36b8a46f6bf729dd84bd2d0d3 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "funnel",
+            "name": "\u6b7b\u4ea1\u4eba\u6570",
+            "data": [
+                {
+                    "name": "\u7f8e\u56fd",
+                    "value": 761839.0
+                },
+                {
+                    "name": "\u5df4\u897f",
+                    "value": 606726.0
+                },
+                {
+                    "name": "\u5370\u5ea6",
+                    "value": 456418.0
+                },
+                {
+                    "name": "\u58a8\u897f\u54e5",
+                    "value": 286888.0
+                },
+                {
+                    "name": "\u4fc4\u7f57\u65af",
+                    "value": 233898.0
+                }
+            ],
+            "sort": "descending",
+            "gap": 2,
+            "label": {
+                "show": true,
+                "position": "inside",
+                "margin": 8
+            },
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "formatter": "{a} <br/>{b} : {c}\u4eba",
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "itemStyle": {
+                "borderColor": "#fff",
+                "borderWidth": 1
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u4fc4\u7f57\u65af",
+                "\u5df4\u897f",
+                "\u7f8e\u56fd",
+                "\u5370\u5ea6",
+                "\u58a8\u897f\u54e5"
+            ],
+            "selected": {
+                "\u7f8e\u56fd": true,
+                "\u5df4\u897f": true,
+                "\u5370\u5ea6": true,
+                "\u58a8\u897f\u54e5": true,
+                "\u4fc4\u7f57\u65af": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "\u5168\u7403\u6b7b\u4ea1\u4eba\u6570TOP5",
+            "subtext": "\u622a\u81f3\u52302021/10/27",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "continuous",
+        "min": 200000,
+        "max": 800000,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "top": "40%",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 140,
+        "borderWidth": 0
+    }
+};
+        chart_3f8cfdb36b8a46f6bf729dd84bd2d0d3.setOption(option_3f8cfdb36b8a46f6bf729dd84bd2d0d3);
+    </script>
+</body>
+</html>
